@@ -5,19 +5,19 @@
   color: #6c6b6b;
 }
 
-a {
-  text-decoration: none;
-}
 
 hedaer {
-  width: 90%;
-  padding: 15px 0;
-  margin: 0 auto;
+  width: 100%;
+  margin: 20px 0;
   text-align: center;
 }
 
-header .heading {
-  font-size: 32px;
+h1.heading {
+  padding: 20px 0;
+}
+
+h1 a {
+  color: blue;
 }
 
 .nav-list {
