@@ -14,8 +14,8 @@ header {
   text-align: center;
   padding: 15px 0;
   margin: 0 auto;
-  border-bottom: 1px solid #000000;
-  border-top: 1px solid #000000;
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282;
 }
 
 .nav-list-item {
@@ -114,3 +114,4 @@ footer {
 .footer-text {
   color: #fff;
 }
+
