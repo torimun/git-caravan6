@@ -8,30 +8,32 @@
 .main-visual {
   width: 100%;
   height: 800px;
+  background-position: center;
 }
 
-.main-visual img1 {
+
+.img1 {
   width: 100%;
   height: 200px;
   background-image: url(img/box1.jpg);
   background-size: cover;
 }
 
-.main-visual img2 {
+.img2 {
   width: 100%;
   height: 200px;
   background-image: url(img/box2.jpg);
   background-size: cover;
 }
 
-.main-visual img3 {
+.img3 {
   width: 100%;
   height: 200px;
   background-image: url(img/box3.jpg);
   background-size: cover;
 }
 
-.main-visual img4 {
+.img4 {
   width: 100%;
   height: 200px;
   background-image: url(img/box4.jpg);
