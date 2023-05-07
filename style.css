@@ -12,7 +12,7 @@ header {
   background-position: bottom;
 }
 
-header h1 {
+header h2 {
   padding: 20px;
 }
 
@@ -23,23 +23,23 @@ main {
 
 .main-contens1 {
   padding-bottom: 30px;
+  border-bottom: 1px solid #B2B2B2;
 }
 
 .main-contens2 {
-  padding-top: 30px;
+  margin-top: 30px;
   padding-bottom: 30px;
+  border-bottom: 1px solid #B2B2B2;
 }
 
 .main-contens3 {
-  padding-top: 30px;
+  margin-top: 30px;
   padding-bottom: 30px;
+  border-bottom: 1px solid #B2B2B2;
 }
 
 .main-contens4 {
-  padding-top: 30px;
+  margin-top: 30px;
   padding-bottom: 30px;
-}
-
-fotter {
-
+  border-bottom: 1px solid #B2B2B2;
 }
