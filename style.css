@@ -8,19 +8,20 @@ header {
   width: 100%;
   height: 400px;
   background-image: url(img/mv.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-position: bottom;
 }
 
 header h1 {
   padding: 20px;
 }
 
-.main {
+main {
   width: 840px;
+  margin: 50px auto;
 }
 
 .main-contens1 {
-  padding-top: 50px;
   padding-bottom: 30px;
 }
 
@@ -40,5 +41,5 @@ header h1 {
 }
 
 fotter {
-  margin: 50px 0;
+
 }
