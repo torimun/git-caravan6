@@ -25,13 +25,6 @@ header {
   margin-left: 20px;
 }
 
-@media screen and (max-width: 425px) {
-  body {
-    width: 100%;
-    flex: block;
-  }
-}
-
 header .heading {
   font-size: 32px;
 }
@@ -225,4 +218,78 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .main-visual{
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .blog {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .blog-box {
+    margin: 0 4% 0;
+  }
+
+  .blog-img {
+    width: 48%;
+  }
+
+  .blog-text {
+    width: 48%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidbar-content {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .instagram-box {
+    width: 47%;
+    padding-top: 47%;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin-right: 6%;
+  }
+
+  .pagination {
+    margin-bottom: 50px;
+  }
+
 }
