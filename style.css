@@ -16,30 +16,34 @@ main {
   margin: 50px auto;
 }
 
+.content {
+  width: 960px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .content-item {
   width: 300px;
   padding: 10px;
-  background-size: 100% 150px;
   background-color: #EEEEEE;
 }
 
+.content-img {
+  background-size: 280px 150px;
+  border-radius: 10px;
+}
+
 .content-item h3 {
-  padding: 15px 0 5px 0;
+  padding-bottom: 5px;
   text-align: left;
 }
 
-.contens-item:nth-child(1) {
+.content-img:nth-child(1) {
   background-image: url(img/flow01.png);
-  margin-right: 30px
 }
 
-.contens-item:nth-child(2) {
+.content-img:nth-child(2) {
   background-image: url(img/flow02.png);
-  margin-right: 30px;
-}
-
-.contens-item:nth-child(3) {
-  background-image: url(img/flow03.png);
 }
 
 footer {
